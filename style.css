@@ -1,0 +1,125 @@
+
+/*font-family: 'Mali', cursive;
+font-family: 'Krub', sans-serif;*/
+
+
+
+/*____________________________________________________________________*/
+
+
+
+body{
+  background-color: #6E8898;
+}
+
+
+h1{
+  font-family: 'Mali', cursive;
+}
+
+h2, h3,p {
+  font-family: 'Krub', sans-serif;
+}
+
+a:hover{
+  color:#93BEDF;
+}
+
+a{
+color:#508CA4;
+text-decoration: none;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.card {
+  border-radius: 5px;
+  background-color: #FFEEDB;
+  text-align: center;
+  box-shadow: 2px 2px 3px 0px black;
+}
+.profile {
+  width: 150px;
+  height:150px;
+  border-radius: 5px;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+
+
+/*PHONE CSS*/
+
+@media (max-width: 400px) {
+  body{
+  background-color: #6E8898;
+}
+
+
+h1{
+  font-family: 'Mali', cursive;
+}
+
+h2, h3,p {
+  font-family: 'Krub', sans-serif;
+}
+
+h2{
+  font-size:15px;
+}
+
+p{
+  font-size: 11px;
+}
+
+a:hover{
+  color:#93BEDF;
+}
+
+a{
+color:#508CA4;
+text-decoration: none;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.card {
+  border-radius: 5px;
+  background-color: #FFEEDB;
+  text-align: center;
+  box-shadow: 2px 2px 3px 0px black;
+
+
+}
+.profile {
+  width: 75px;
+  border-radius: 5px;
+  height: 140px;
+}
+
+.card img {
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 75%;
+
+}
+
+#social{
+  font-size: 6px;
+}
+
+table, td ,tr {
+  display: block;
+}
+
+}
