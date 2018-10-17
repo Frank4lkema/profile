@@ -26,8 +26,8 @@ a:hover{
 }
 
 a{
-color:#508CA4;
-text-decoration: none;
+  color:#508CA4;
+  text-decoration: none;
 }
 
 .container{
@@ -36,11 +36,11 @@ text-decoration: none;
 }
 
 .btn-red{
-    background-color: #6E8898;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
+  background-color: #6E8898;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
 
 }
 
@@ -78,15 +78,27 @@ text-decoration: none;
   text-align: center;
 }
 
+ul{
+  list-style:none;
+}
+
+.list-item{
+  padding-bottom:178px;
+
+}
+
 #sidebar {
   position: fixed;
-  width: 150px;
+  width: 114px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color:#FFEEDB;
-  display: block;
+  display: inline-block;
+  font-size:50px;
 }
+
+
 #page-content {
   margin-left: 150px;
 }
@@ -95,73 +107,73 @@ text-decoration: none;
 
 @media (max-width: 400px) {
   body{
-  background-color: #6E8898;
-}
+    background-color: #6E8898;
+  }
 
 
-h1{
-  font-family: 'Mali', cursive;
-}
+  h1{
+    font-family: 'Mali', cursive;
+  }
 
-h2, h3,p {
-  font-family: 'Krub', sans-serif;
-}
+  h2, h3,p {
+    font-family: 'Krub', sans-serif;
+  }
 
-h2{
-  font-size:15px;
-}
+  h2{
+    font-size:15px;
+  }
 
-p{
-  font-size: 11px;
-}
+  p{
+    font-size: 11px;
+  }
 
-a:hover{
-  color:#93BEDF;
-}
+  a:hover{
+    color:#93BEDF;
+  }
 
-a{
-color:#508CA4;
-text-decoration: none;
-}
+  a{
+    color:#508CA4;
+    text-decoration: none;
+  }
 
-.container{
-  width: 50%;
-  margin: 0 auto;
-}
-
-
-.card {
-  border-radius: 5px;
-  background-color: #FFEEDB;
-  text-align: center;
-  box-shadow: 2px 2px 3px 0px black;
+  .container{
+    width: 50%;
+    margin: 0 auto;
+  }
 
 
-}
+  .card {
+    border-radius: 5px;
+    background-color: #FFEEDB;
+    text-align: center;
+    box-shadow: 2px 2px 3px 0px black;
 
-ul {
-  list-style: none;
-}
 
-.profile {
-  width: 75px;
-  border-radius: 5px;
-  height: 140px;
-}
+  }
 
-.card img {
-  border-radius: 5px;
-  margin-right: 10px;
-  width: 75%;
+  ul {
+    list-style: none;
+  }
 
-}
+  .profile {
+    width: 75px;
+    border-radius: 5px;
+    height: 140px;
+  }
 
-#social{
-  font-size: 6px;
-}
+  .card img {
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 75%;
 
-table, td ,tr {
-  display: block;
-}
+  }
+
+  #social{
+    font-size: 6px;
+  }
+
+  table, td ,tr {
+    display: block;
+  }
 
 }
