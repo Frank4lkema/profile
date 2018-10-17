@@ -115,6 +115,11 @@ text-decoration: none;
 
 
 }
+
+ul {
+  list-style: none;
+}
+
 .profile {
   width: 75px;
   border-radius: 5px;
