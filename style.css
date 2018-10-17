@@ -85,6 +85,7 @@ text-decoration: none;
   top: 0;
   bottom: 0;
   background-color:#FFEEDB;
+  display: block;
 }
 #page-content {
   margin-left: 150px;
