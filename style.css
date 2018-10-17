@@ -35,12 +35,22 @@ text-decoration: none;
   margin: 0 auto;
 }
 
+.btn-red{
+    background-color: #6E8898;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
 
 .card {
   border-radius: 5px;
   background-color: #FFEEDB;
   text-align: center;
   box-shadow: 2px 2px 3px 0px black;
+  margin: 20px 0 20px;
 }
 .profile {
   width: 150px;
@@ -66,6 +76,18 @@ text-decoration: none;
 
 .text-center {
   text-align: center;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color:#FFEEDB;
+}
+#page-content {
+  margin-left: 150px;
 }
 
 /*PHONE CSS*/
